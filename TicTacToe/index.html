@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
 </head>
 <body>
-
+<div id="wrapper">
+    <h1 class="title">Tic tac Toe</h1>
+    <p class="text">A game in which two players seek in alternate turns to complete a row, a column, or a diagonal with either three O's or three X's drawn in the spaces of a grid of nine squares; noughts and crosses.</p>
+    <p class="text">Choose a cell to start the game: </p>
+    <div class="container">
+        <div data-cell-index="0" class="cell"></div>
+        <div data-cell-index="1" class="cell"></div>
+        <div data-cell-index="2" class="cell"></div>
+        <div data-cell-index="3" class="cell"></div>
+        <div data-cell-index="4" class="cell"></div>
+        <div data-cell-index="5" class="cell"></div>
+        <div data-cell-index="6" class="cell"></div>
+        <div data-cell-index="7" class="cell"></div>
+        <div data-cell-index="8" class="cell"></div>
+    </div>
+    <h2 class="status" id="status"></h2>
+    <button class="restart">Restart</button>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
